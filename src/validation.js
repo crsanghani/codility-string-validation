@@ -1,5 +1,9 @@
 module.exports = {
   validateLength: function(string) {
-    return -1;
+    if(string.length > 0) {
+      return 2;
+    } else {
+      return -1;
+    }
   }
 }
